@@ -1,0 +1,18 @@
+# Cache objects
+packer_cache/
+
+# Output dir
+output/
+
+# Iso rit
+iso/
+
+# Crash log
+crash.log
+
+# vagrant files
+.vagrant/
+Vagrantfile
+
+# For built boxes
+*.box
