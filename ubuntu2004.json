@@ -38,11 +38,12 @@
         "execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E sh -eux '{{.Path}}'",
         "expect_disconnect": true,
         "scripts": [
-            "scripts/update.sh",
+            "scripts/update_u.sh",
             "scripts/sudoers.sh",
             "scripts/virtualbox.sh",
             "scripts/vagrant.sh",
-            "scripts/cleanup.sh"
+            "scripts/cleanup.sh",
+			"scripts/rundeck.sh"
         ],
         "type": "shell"
     }],
